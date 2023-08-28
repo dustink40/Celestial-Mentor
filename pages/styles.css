@@ -86,12 +86,11 @@ body {
     flex-flow: column nowrap;
     gap: 16px;
     height: min-content;
-    padding: 0px;
+    padding-right: 50px;
     width: min-content;
 }
 
 .prompt-box {
-    padding-right: 50px;
     box-shadow: 10px 10px 5px red;
     border-bottom-width: 10px;
     border-color: rgba(73, 10, 245, 0.1);

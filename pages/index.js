@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import deckexpertLogo from '../assets/deckexpert-logo.png';
+import celestialmentorLogo from '../assets/celestialmentor-logo.png';
 
 const Home = () => {
   const [userInput, setUserInput] = useState("");
@@ -63,15 +63,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>DECK-EXPERT | buildspace</title>
+        <title>Celestial-Mentor | buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>"Deck-Expert: Mastering the Art of Deck Construction"</h1>
+            <h1>"CosmicGuide AI: Navigating the Universe""</h1>
           </div>
           <div className="header-subtitle">
-            <h2>"Unlocking Tips, Techniques, and Expertise for Stunning Decks"</h2>
+            <h2>"Embark on a quest through the stars with guidance from our expert AI."</h2>
           </div>
         </div>
         <div className="logo-container">
@@ -80,7 +80,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Hello, I am DECK-EXPERT. How can i assist you in your deck project?"
+            placeholder="Hello, I am Your Celestial-Mentor. Your personal guide into the cosmos!"
             value={userInput}
             onChange={onUserChangedText}
           />
@@ -113,7 +113,7 @@ const Home = () => {
       <div className="badge-container grow">
         <a href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={deckexpertLogo} className="balls" alt="Your logo" />
+            <Image src={celestialmentorLogo} className="balls" alt="Your logo" />
             <p>build with buildspace</p>
           </div>
         </a>

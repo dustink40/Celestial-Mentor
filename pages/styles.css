@@ -86,7 +86,7 @@ body {
     flex-flow: column nowrap;
     gap: 16px;
     height: min-content;
-    padding-right: 50px;
+    margin-left: 50px;
     width: min-content;
 }
 

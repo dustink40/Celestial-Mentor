@@ -1,7 +1,10 @@
 {
-  "name": "my-package",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
+  "extends": "next/core-web-vitals"
+}
+{
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }

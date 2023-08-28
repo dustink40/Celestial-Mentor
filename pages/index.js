@@ -80,7 +80,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Hello, I am Your Celestial-Mentor. Your personal guide into the cosmos!"
+            placeholder="Hello OWEN, I am Your Celestial-Mentor. Your personal guide into the cosmos!"
             value={userInput}
             onChange={onUserChangedText}
           />

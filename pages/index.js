@@ -75,7 +75,7 @@ const Home = () => {
           </div>
         </div>
         <div className="logo-container">
-          <Image src={deckexpertLogo} alt="Your logo" />
+          <Image src={celestialmentorLogo} alt="Your logo" />
         </div>
         <div className="prompt-container">
           <textarea

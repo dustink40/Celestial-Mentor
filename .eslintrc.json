@@ -7,4 +7,11 @@
     "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off"
   }
+  {
+    "name": "my-package",
+    "scripts": {
+      "build": "babel src -d lib",
+      "test": "jest"
+    }
+  }
 }
